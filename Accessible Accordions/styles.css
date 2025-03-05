@@ -1,0 +1,27 @@
+.accordion-item {
+  margin-bottom: 1rem;
+}
+
+.accordion-header {
+  width: 100%;
+  padding: 1rem;
+  text-align: left;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.accordion-panel {
+  padding: 1rem;
+  display: none;
+  background-color: #fafafa;
+  border-top: 1px solid #ddd;
+}
+
+.accordion-header[aria-expanded="true"] {
+  background-color: #ccc;
+}
+
+.accordion-header:focus {
+  outline: 2px solid #0066cc;
+}
